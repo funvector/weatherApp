@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/favicon/sun.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style/main.css">
+  <title>weatherApp</title>
+</head>
+<body>
+  <section class="top-banner">
+    <div class="container">
+      <h1 class="heading">Weather App</h1>
+      <form>
+        <input type="text" placeholder="Search for a city or region" autofocus>
+        <button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+        <div class="date-selection">
+          <select name="date" class="select">
+          </select>
+        </div>
+        <span class="msg"></span>
+      </form>
+    </div>
+  </section>
+  <section class="ajax-section">
+    <div class="container">
+      <ul class="cities"></ul>
+    </div>
+    <div class="container temp">
+      <ul class="cities dateTemp"></ul>
+    </div>
+  </section>
+  <script src="js/main.js"></script>
+</body>
+</html>
